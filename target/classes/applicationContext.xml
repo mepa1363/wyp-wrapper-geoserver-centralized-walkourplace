@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+  <beans>  
+    <bean id="POIWPS_WYP_Centralized" class="org.geoserver.wps.gs.POI_WYP_Centralized"/>
+    <bean id="CrimeWPS_WYP_Centralized" class="org.geoserver.wps.gs.Crime_WYP_Centralized"/>
+    <bean id="AggregationWPS_WYP_Centralized" class="org.geoserver.wps.gs.Aggregation_WYP_Centralized"/>
+    <bean id="ManagementWPS_WYP" class="org.geoserver.wps.gs.Management_WYP"/>
+  </beans>
